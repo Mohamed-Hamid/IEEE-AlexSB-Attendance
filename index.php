@@ -3,13 +3,13 @@
 <head>
 	<meta charset=utf-8 />
 	<title>IEEE AlexSB | Tweets</title>
-	<script src="/IEEE/includes/jquery-latest.min.js"></script>
+	<script src="/includes/jquery-latest.min.js"></script>
 	<!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="/IEEE/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/IEEE/bootstrap/css/custom.css" rel="stylesheet">
+	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/bootstrap/css/custom.css" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
@@ -34,6 +34,6 @@
 			}(document,"script","twitter-wjs");
 			</script>
 
-		<script src="/IEEE/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>
