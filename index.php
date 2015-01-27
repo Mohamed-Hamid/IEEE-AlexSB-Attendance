@@ -14,26 +14,28 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<h2>#IEEEALexSB</h2>
+		<h2>@IEEEAlexSB</h2>
 			<div class="col-md-6 col-md-offset-3">
 				<a class="twitter-timeline"
-				href="https://twitter.com/hashtag/IEEEAlexSB" 
-				data-widget-id="559804075911688192">#IEEEAlexSB Tweets</a>
-				</div>
+				 href="https://twitter.com/IEEEAlexSB" 
+				 data-widget-id="559889048916221952">
+				 Tweets by @IEEEAlexSB
+				</a>
+			</div>
 		</div>
 	</div>
-		<script>
-			!function(d,s,id){
-				var js,fjs=d.getElementsByTagName(s)[0],
-				p=/^http:/.test(d.location)?'http':'https';
-				if(!d.getElementById(id)){
-					js=d.createElement(s);
-					js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-					fjs.parentNode.insertBefore(js,fjs);
-				}
-			}(document,"script","twitter-wjs");
-			</script>
 
-		<script src="/bootstrap/js/bootstrap.min.js"></script>
-	</body>
+	<script> !function(d,s,id){
+		var js,fjs=d.getElementsByTagName(s)[0],
+		p=/^http:/.test(d.location)?'http':'https';
+
+		if(!d.getElementById(id)){
+			js=d.createElement(s);js.id=id;
+			js.src=p+"://platform.twitter.com/widgets.js";
+			fjs.parentNode.insertBefore(js,fjs);
+		}
+	}(document,"script","twitter-wjs");
+	</script>
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>
